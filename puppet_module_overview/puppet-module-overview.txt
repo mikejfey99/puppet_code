@@ -1,0 +1,13 @@
+Puppet Modules
+
+# puppet config print modulepath (server)
+ 
+/etc/puppetlabs/code/environments/production/modules
+
+# puppet module install puppetlabs-tomcat
+
+# puppet module install puppet-jenkins --version 2.0.0
+
+
+
+

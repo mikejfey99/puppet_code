@@ -1,0 +1,11 @@
+install bolt on pupper server
+
+rpm -Uvh https://yum.puppet.com/puppet6/puppet6-release-el-7.noarch.rpm
+
+yum install puppet-bolt
+
+
+bolt --help
+bolt --version
+
+bolt command run 'free -th' --nodes localhost

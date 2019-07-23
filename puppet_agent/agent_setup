@@ -1,0 +1,25 @@
+Agent install and cert config
+------------------------------
+bolt command run "sh -c 'curl -k https://learning.puppetlabs.vm:8140/packages/current/install.bash | sudo bash'" --nodes docker://hello.puppet.vm (run on server)
+
+sudo puppet resource file /tmp/test (on node shows what agent can do)
+
+sudo puppet resource package httpd ensure=present (install a package
+
+================================
+Cert config
+--------------
+
+sudo puppet agent -t (on node)
+
+puppetserver ca sign --certname agent.puppet.vm (on pupper server)
+
+========================================================
+
+Use agent to install httpd (run on node)
+-------------------------------------
+sudo puppet resource package httpd
+sudo puppet resource package bogus-package ensure=present
+ sudo puppet resource package bogus-package ensure=present provider=gem
+
+sudo puppet resource package httpd ensure=present
