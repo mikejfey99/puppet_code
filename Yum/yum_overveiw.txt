@@ -2,5 +2,4 @@ Yum enable repositories
 # yum repolist all
 # yum-config-manager --enable Base
 
-Edit Puppet.conf
-	Change module_repository to https://forge.puppet.com
+
