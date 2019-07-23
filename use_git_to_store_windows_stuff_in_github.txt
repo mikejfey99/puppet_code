@@ -1,0 +1,14 @@
+Git for storing windows directories in github
+
+Tuesday, July 23, 2019
+1:34 PM
+
+	1. Create repo in github
+	2. In Windows git bash navigate to a directory that will be the parent of the git folder
+	3. In git bash - git clone https://github.com/mikejfey99/puppet_code.git
+	4. This clone will create a new Windows directory
+	5. Move files/folders into this new Windows direcory
+	6. Git add .
+	7. Git commit -m "commit"
+	8. Git push -u origin master
+	9. Git pull - -- use then when you edit a file in github.com and want to sync changes back to local Windows directory
