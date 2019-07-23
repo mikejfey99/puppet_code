@@ -7,7 +7,7 @@ Tuesday, July 23, 2019
 	2. In Windows git bash navigate to a directory that will be the parent of the git folder
 	3. In git bash - git clone https://github.com/mikejfey99/puppet_code.git
 	4. This clone will create a new Windows directory
-	5. Move files/folders into this new Windows direcory
+	5. Move files/folders into this new Windows directory
 	6. Git add .
 	7. Git commit -m "commit"
 	8. Git push -u origin master
